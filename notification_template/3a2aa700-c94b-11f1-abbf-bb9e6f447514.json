@@ -1,0 +1,37 @@
+{
+  "entityType" : "NOTIFICATION_TEMPLATE",
+  "entity" : {
+    "configuration" : {
+      "attachReport" : false,
+      "deliveryMethodsTemplates" : {
+        "WEB" : {
+          "method" : "WEB",
+          "additionalConfig" : {
+            "icon" : {
+              "enabled" : true,
+              "icon" : "notifications",
+              "color" : "#757575"
+            },
+            "actionButtonConfig" : {
+              "enabled" : false
+            }
+          },
+          "body" : "Severity: ${alarmSeverity}, originator: ${alarmOriginatorEntityType} '${alarmOriginatorName}'",
+          "enabled" : true,
+          "subject" : "New alarm '${alarmType}'"
+        }
+      },
+      "makePublic" : false,
+      "reportTemplateId" : null,
+      "timezone" : null,
+      "userId" : null
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "NOTIFICATION_TEMPLATE",
+      "id" : "3a2aa700-c94b-11f1-abbf-bb9e6f447514"
+    },
+    "name" : "New alarm notification",
+    "notificationType" : "ALARM"
+  }
+}

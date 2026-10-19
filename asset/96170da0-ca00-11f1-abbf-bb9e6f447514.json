@@ -1,0 +1,82 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "81ea6930-ca00-11f1-abbf-bb9e6f447514"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "96170da0-ca00-11f1-abbf-bb9e6f447514"
+    },
+    "label" : null,
+    "name" : "Room F309",
+    "ownerId" : null,
+    "type" : "Smart Room"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "96170da0-ca00-11f1-abbf-bb9e6f447514"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "86632aa0-ca01-11f1-b7e2-11f1cb81fc8d"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 24300227
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "96170da0-ca00-11f1-abbf-bb9e6f447514"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "99971730-ca01-11f1-b7e2-11f1cb81fc8d"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 24300228
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "96170da0-ca00-11f1-abbf-bb9e6f447514"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "a3f07960-ca01-11f1-b7e2-11f1cb81fc8d"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 24300229
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "96170da0-ca00-11f1-abbf-bb9e6f447514"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5b7999f0-ca01-11f1-8030-1df5d66d741d"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 24300230
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

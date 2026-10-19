@@ -1,0 +1,118 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT",
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "d8c313b0-ca00-11f1-8030-1df5d66d741d"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "a3f07960-ca01-11f1-b7e2-11f1cb81fc8d"
+    },
+    "label" : "",
+    "name" : "F309 Smart Light",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "Smart Light"
+  },
+  "credentials" : {
+    "credentialsId" : "VkqNG79r0HcOCgPj16cJ",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "96170da0-ca00-11f1-abbf-bb9e6f447514"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "a3f07960-ca01-11f1-b7e2-11f1cb81fc8d"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 24300229
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1792298528461,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "autoMode",
+      "lastUpdateTs" : 1792244992273,
+      "longValue" : null,
+      "strValue" : "false"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1792298528457,
+      "longValue" : 1792298528457,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1792297908774,
+      "longValue" : 1792297908290,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1792297869613,
+      "longValue" : 1792297869613,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1792297917343,
+      "longValue" : 1792297917343,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "autoMode",
+      "lastUpdateTs" : 1792296461685,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  },
+  "calculatedFields" : [ ]
+}

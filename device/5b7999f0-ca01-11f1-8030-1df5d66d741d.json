@@ -1,0 +1,118 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT",
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "b02f0bc0-ca00-11f1-b7e2-11f1cb81fc8d"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "5b7999f0-ca01-11f1-8030-1df5d66d741d"
+    },
+    "label" : "",
+    "name" : "F309 Environment Sensor",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "Environment Sensor"
+  },
+  "credentials" : {
+    "credentialsId" : "c6XhADZIFDGy9Z4cy2np",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "96170da0-ca00-11f1-abbf-bb9e6f447514"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5b7999f0-ca01-11f1-8030-1df5d66d741d"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 24300230
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1792298529670,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1792298529654,
+      "longValue" : 1792298529652,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1792297915627,
+      "longValue" : 1792297913847,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1792297869633,
+      "longValue" : 1792297869633,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1792297916691,
+      "longValue" : 1792297916691,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "temperatureThreshold",
+      "lastUpdateTs" : 1792246963496,
+      "longValue" : 35,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "temperatureThreshold",
+      "lastUpdateTs" : 1792296425115,
+      "longValue" : 30,
+      "strValue" : null
+    } ]
+  },
+  "calculatedFields" : [ ]
+}

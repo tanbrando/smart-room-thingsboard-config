@@ -1,0 +1,93 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "1b3ce960-ca05-11f1-b7e2-11f1cb81fc8d"
+    },
+    "description" : "",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "b02f0bc0-ca00-11f1-b7e2-11f1cb81fc8d"
+    },
+    "image" : null,
+    "name" : "Environment Sensor",
+    "profileData" : {
+      "alarms" : null,
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "DEFAULT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ {
+    "additionalInfo" : { },
+    "configuration" : {
+      "type" : "SIMPLE",
+      "output" : {
+        "type" : "TIME_SERIES",
+        "decimalsByDefault" : 2,
+        "name" : "heatIndex",
+        "strategy" : {
+          "type" : "IMMEDIATE",
+          "processCfs" : true,
+          "saveLatest" : true,
+          "saveTimeSeries" : true,
+          "sendWsUpdate" : true,
+          "ttl" : 0
+        }
+      },
+      "arguments" : {
+        "R" : {
+          "defaultValue" : "0",
+          "refEntityKey" : {
+            "key" : "humidity",
+            "type" : "TS_LATEST"
+          }
+        },
+        "T" : {
+          "defaultValue" : "0",
+          "refEntityKey" : {
+            "key" : "temperature",
+            "type" : "TS_LATEST"
+          }
+        }
+      },
+      "expression" : "((2.049*(1.8*T+32) + 10.143*R - 0.2248*(1.8*T+32)*R - 0.00684*(1.8*T+32)*(1.8*T+32) - 0.0548*R*R + 0.00123*(1.8*T+32)*(1.8*T+32)*R + 0.000853*(1.8*T+32)*R*R - 0.00000199*(1.8*T+32)*(1.8*T+32)*R*R - 42.379) - 32) / 1.8",
+      "useLatestTs" : false
+    },
+    "configurationVersion" : 0,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1792226186402,
+      "failuresEnabled" : true
+    },
+    "name" : "Heat Index",
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "3a1aa170-c94b-11f1-abbf-bb9e6f447514"
+    },
+    "type" : "SIMPLE"
+  } ]
+}

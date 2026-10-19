@@ -1,0 +1,110 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT",
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "c05c6f10-ca00-11f1-b7e2-11f1cb81fc8d"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "86632aa0-ca01-11f1-b7e2-11f1cb81fc8d"
+    },
+    "label" : "",
+    "name" : "F309 Presence Detector",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "Presence Detector"
+  },
+  "credentials" : {
+    "credentialsId" : "f9lh9yf04j2bqvr0hyxf",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "96170da0-ca00-11f1-abbf-bb9e6f447514"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "86632aa0-ca01-11f1-b7e2-11f1cb81fc8d"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 24300227
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1792298528477,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1792298528457,
+      "longValue" : 1792298528457,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1792297917778,
+      "longValue" : 1792297917106,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1792297869622,
+      "longValue" : 1792297869622,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1792297917349,
+      "longValue" : 1792297917349,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "absenceTimeout",
+      "lastUpdateTs" : 1792252334726,
+      "longValue" : 10,
+      "strValue" : null
+    } ]
+  },
+  "calculatedFields" : [ ]
+}
